@@ -14,6 +14,11 @@ imap <C-S-\> <ESC><C-S-\>
 map <C-A> <Home>
 map <C-E> <End>
 
+" Set/Unset paste mode
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
+
 syntax on
 
 set background=dark
@@ -37,3 +42,5 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=236
 
 " force syntax for different filetypes
 au BufRead,BufNewFile *.es6 setfiletype javascript
+
+
