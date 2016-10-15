@@ -3,6 +3,9 @@ autocmd!
 filetype off
 call pathogen#infect()
 
+set nowritebackup
+set nobackup
+
 nmap <C-T> :tabnew<CR>
 nmap <C-\> :tabnext<CR>
 nmap <C-S-\> :tabprev<CR>
