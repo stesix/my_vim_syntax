@@ -12,4 +12,11 @@ ln -s $( pwd )/my_vim_syntax ~/.vim
 ln -s ~/.vim/.vimrc ~
 ```
 
+# I've got a copy but I can't fetch the submodules
+Here you are:
+```bash
+git submodule init
+git submodule update
+```
+
 Have fun.
