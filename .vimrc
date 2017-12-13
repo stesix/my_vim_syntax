@@ -46,4 +46,6 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=236
 " force syntax for different filetypes
 au BufRead,BufNewFile *.es6 setfiletype javascript
 
-
+" Show hidden characters
+set listchars=eol:¬,space:·,tab:›—,extends:≥,precedes:≤,trail:•
+set list
