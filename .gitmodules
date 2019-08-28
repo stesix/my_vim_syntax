@@ -1,36 +1,47 @@
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
 	url = https://github.com/elzr/vim-json
+	branch = master
 [submodule "bundle/vim-colors-solarized"]
     path = bundle/vim-colors-solarized
     url = https://github.com/altercation/vim-colors-solarized
+	branch = master
 [submodule "bundle/vim-indent-guides"]
     path = bundle/vim-indent-guides
     url = https://github.com/nathanaelkane/vim-indent-guides
+	branch = master
 [submodule "bundle/vim-vividchalk"]
     path = bundle/vim-vividchalk
     url = https://github.com/tpope/vim-vividchalk
+	branch = master
 [submodule "bundle/puppet"]
 	path = bundle/puppet
 	url = git://github.com/rodjek/vim-puppet.git
+	branch = master
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
+	branch = master
 [submodule "bundle/tlib"]
 	path = bundle/tlib
 	url = https://github.com/tomtom/tlib_vim.git
+	branch = master
 [submodule "bundle/mwutils"]
 	path = bundle/mwutils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+	branch = master
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = https://github.com/garbas/vim-snipmate.git
+	branch = master
 [submodule "bundle/vim-snippets"]
 	path = bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+	branch = master
 [submodule "vim-pathogen"]
 	path = vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
+	branch = master
 [submodule "bundle/editorconfig-vim"]
 	path = bundle/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim
